@@ -662,4 +662,12 @@ margin-bottom: 8px;
 }
 .modal-pencere-button:hover{
     background-color: #404bbf;
+    border: none;
+}
+.modal-pencere-button:focus{
+    background-color: #404bbf;
+    border: none;
+}
+.modal-pencere-svg{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
