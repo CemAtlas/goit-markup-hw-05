@@ -657,8 +657,8 @@ margin-bottom: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transform: background-color 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    border: 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
