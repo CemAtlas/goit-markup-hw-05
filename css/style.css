@@ -709,3 +709,9 @@ margin-bottom: 8px;
 .modal-pencere-form-div-input:hover{
     border-color: #4D5AE5
 }
+.container-input-simge-svg{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
