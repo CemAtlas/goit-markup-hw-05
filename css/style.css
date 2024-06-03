@@ -740,6 +740,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border 250ms c
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form-textarea:focus{
+    border-color: #4D5AE5;
+}
 .container-label-onay-kutusu{
     margin-bottom: 24px;
 }
