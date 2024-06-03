@@ -743,9 +743,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border 250ms c
 .container-label-onay-kutusu{
     margin-bottom: 24px;
 }
-.container-label-onay-kutusu-input{
 
-}
 .container-onay-kutusu-label{
     font-size: 12px;
     line-height: 1.17;
@@ -763,4 +761,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border 250ms c
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+.container-onay-kutusu-label-a{
+    color: #4d5ae5;
 }
