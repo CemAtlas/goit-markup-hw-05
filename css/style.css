@@ -706,9 +706,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border 250ms c
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-pencere-form-div-input:hover{
     border-color: #4D5AE5
+}
+.modal-pencere-form-div-input:focus{
+   border-color: #4D5AE5; 
 }
 .container-input-simge-svg{
     position: absolute;
